@@ -2,8 +2,8 @@
 
 End-to-end data analytics project on 3,900 retail transactions, using **Python**, **MySQL** and **Power BI** to uncover spending patterns, customer segments, product preferences and subscription behavior, and to turn them into business recommendations.
 
-   ![Dashboard](dashboard.png)
-   
+![Dashboard](dashboard.png)
+
 ---
 
 ## Overview
@@ -89,7 +89,7 @@ An interactive dashboard with filters for subscription status, gender, category 
 |---|---|
 | `customer_shopping_behavior.csv` | Dataset |
 | `customer shopping behaviour.ipynb` | Python notebook (EDA, cleaning, feature engineering) |
-| `customers.sql` | MySQL queries for the 10 business questions |
+| `customer_behavior_sql_queries.sql` | MySQL queries for the 10 business questions |
 | `customer behaviour dashboard.pbix` | Power BI dashboard file (open with Power BI Desktop) |
 | `dashboard.png` | Dashboard screenshot |
 
@@ -105,10 +105,11 @@ An interactive dashboard with filters for subscription status, gender, category 
    pip install pandas numpy sqlalchemy pymysql jupyter
    ```
 3. Open `customer shopping behaviour.ipynb` in Jupyter and run it to clean the data and load it into MySQL (update the connection details with your own credentials).
-4. Run `customers.sql` in MySQL (version 8.0 or later is needed for window functions).
+4. Run `customer_behavior_sql_queries.sql` in MySQL (version 8.0 or later is needed for window functions).
 5. Open `customer behaviour dashboard.pbix` in Power BI Desktop to explore the dashboard.
 
 ## Author
 
 **Shivanshu Sharma**
+
 GitHub: [Shivanshu-Sharma1376](https://github.com/Shivanshu-Sharma1376)
