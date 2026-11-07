@@ -2,7 +2,8 @@
 
 End-to-end data analytics project on 3,900 retail transactions, using **Python**, **MySQL** and **Power BI** to uncover spending patterns, customer segments, product preferences and subscription behavior, and to turn them into business recommendations.
 
-
+   ![Dashboard](dashboard.png)
+   
 ---
 
 ## Overview
